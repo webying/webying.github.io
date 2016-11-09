@@ -16,7 +16,7 @@ ul{
 /*head*/
 #head{
 	background:#F1F1F1;
-	height:36px;}
+	height:30px;}
 #head_con{
 	width:1210px;
 	margin:0 auto;
@@ -30,23 +30,22 @@ ul{
 	line-height:30px;}
 #head_con_right{
 	float:right;
-	line-height:30px;
-	}
+	line-height:30px;}
 #head_con_right .red{
 	color:#C81623;
 	float:left;}
-#head_con_right  ul li{
+#head_con_right ul li{
 	float:left;
-	padding-left:11px;
-	color:#DDD;}
-#head_con_right  ul {
+	color:#DDD;
+	padding-left:11px;}
+#head_con_right ul{
 	float:left;}
-#head_con_right  ul li img{
-	float:left;/*调小手机位置*/
-	margin-top:4px;}
-#head_con_right  ul li a{
-	padding-right:11px;}
-/*京东gg*/
+#head_con_right ul li img{
+	float:left;
+	margin-top:3px;}
+#head_con_right ul li a{
+	padding-right:12px;}
+/*jd_gg*/
 #jd_gg{
 	height:80px;
 	background:#FB3939;}
@@ -55,14 +54,16 @@ ul{
 	margin:0 auto;}
 /*search*/
 #search{
-	height:100px;
-	}
+	height:100px;}
 #search_con{
 	width:1210px;
 	margin:0 auto;}
 #search_con_left{
 	float:left;
 	margin-top:20px;}
+#search_con_conter{
+	float:left;
+	margin:25px 0 0 100px;}
 #search_con_right{
 	float:right;
 	margin:22px 60px 0 0;}
@@ -77,7 +78,7 @@ ul{
 	background:#B61D1D;
 	border:none;
 	font-size:17px;
-	color:#FFF;
+	color:#fff;
 	font-weight:bold;}
 #search_con_conter ul li a{
 	color:#666;
@@ -86,11 +87,8 @@ ul{
 	display:inline;
 	line-height:27px;
 	padding-right:3px;}
-#search_con_conter .s_red{
+#search_con_conter ul li .s_red{
 	color:#C81623;}
-#search_con_conter{
-	float:left;
-	margin:25px 0 0 90px;}
 /*menu*/
 #menu{
 	height:44px;
@@ -98,8 +96,7 @@ ul{
 #menu_con{
 	width:1210px;
 	margin:0 auto;
-	font-family:"Microsoft YaHei UI";
-	}
+	font-family:"Microsoft YaHei UI";}
 #menu_con h3{
 	color:#fff;
 	background:#B1191A;
@@ -108,7 +105,7 @@ ul{
 	padding-left:10px;
 	font-size:15px;
 	font-weight:500;
-	float:left;/*让ul上去*/}
+	float:left;}
 #menu_con ul{
 	line-height:44px;
 	margin-left:12px;
@@ -136,13 +133,13 @@ ul{
 	padding-left:10px;
 	font-family:"Microsoft YaHei UI";}
 #content_con_left ul li{
-	line-height:31px;
-	color:#fff;}
+	line-height:31px;}
 #content_con_left ul li a{
 	color:#fff;}
 #content_con_left ul li span{
 	float:right;
-	margin-right:12px;}
+	padding-right:12px;
+	color:#fff;}
 #content_con_conter{
 	float:left;
 	width:730px;
@@ -163,30 +160,26 @@ ul{
 	color:#666;
 	font-family:"Microsoft YaHei UI";
 	border-bottom:1px dotted #E4E4E4;
-	padding-left:15px;/*不能用margin*/}
+	padding-left:15px;}
 #content_con_right_top span{
 	float:right;
 	font-size:12px;
 	margin-right:15px;}
+#content_con_right_top ul {
+	padding:0 15px;
+	margin-top:5px;}
 #content_con_right_top ul li{
 	font-size:12px;
-	line-height:24px;
-	}
+	line-height:24px;}
 #content_con_right_top ul li a{
 	color:#666;}
-#content_con_right_top ul{
-	margin-top:5px;
-	padding:0 15px;
-	}
-#content_con_right_mi{
-	height:210px;}
-#content_con_right_mi table{
-	border-collapse:collapse;/*去空白*/}
+#content_con_right_mi table {
+	border-collapse:collapse;}
 #content_con_right_mi table tr td{
-	border: 1px solid #E4E4E4;
+	border:1px solid #E4E4E4;
 	height:69px;}
 #content_con_right_mi table tr td img{
-	width:100%;/*用格子的宽度*/
+	width:100%;
 	height:69px;}
 #content_con_right_bottom{
 	height:72px;
@@ -235,63 +228,62 @@ float:left;}
 #cnxh{
 	height:269px;
 	margin-top:20px;
-	font-family:"Microsoft YaHei UI";
-	font-weight:500;
-	}
+	font-family:"Microsoft YaHei UI";}
 #cnxh_con{
 	width:1210px;
 	margin:0 auto;}
 #cnxh_con h3{
 	font-size:20px;
-	font-weight:300px;
-	line-height:30px;
-	}
+	font-weight:300;
+	line-height:30px;}
+#cnxh_con h3 span{
+
+	float:right;
+	font-size:12px;}
 #cnxh_con h3 img{
 	position:relative;
 	top:3px;}
-#cnxh_con h3 span{
-	float:right;
-	font-size:12px;}
-#cnxh_con  ul{
+#cnxh_con ul{
 	border:1px solid #999;
 	padding-top:20px;}
-#cnxh_con  ul li{
-	float:left;/*行显示*/
-	width:201px;}	
-#cnxh_con  ul li img{
-	display:block;/*必须写，不写margin无效*/
+#cnxh_con ul li{
+	float:left;
+	width:201px;}
+#cnxh_con ul li img{
+	display:block;/*转块级*/
 	margin:0 auto;}	
 #cnxh_con .cnxh_text{
 	padding:0 36px;
-	font-size:12px;
 	line-height:20px;
+	font-size:12px;
 	border-right:1px solid #999;
-	margin-bottom:15px;}	
+	margin-bottom:15px;}
 #cnxh_con .cnxh_text a{
 	color:#666;}
 #cnxh_con .cnxh_text span{
 	color:#B51D1A;
 	font-size:16px;
-	line-height:30px;}	
- #cnxh_con #qu {
-	border:none;}	
+	line-height:30px;}
+#cnxh .qu{
+	border:none;}
+/*pzsh*/
 #pzsh{
 	height:443px;
 	margin-top:60px;
 	font-family:"Microsoft YaHei UI";}
 #pzsh_con{
 	width:1210px;
-	margin:0 auto;}	
+	margin:0 auto;}
 #pzsh_con h3{
 	line-height:36px;
 	font-size:20px;
 	font-weight:300;}
 #pzsh_con h4{
-	font-size:15px;
 	line-height:40px;
+	font-size:15px;
 	border-bottom:1px dashed #EDEDED;
 	text-align:center;
-	margin:0 18px;}	
+	margin:0 18px;}
 #pzsh_con_img1{
 	width:401px;
 	height:405px;
@@ -303,7 +295,6 @@ float:left;}
 	float:left;
 	border-top:1px solid #EDEDED;
 	border-bottom:1px solid #EDEDED;}
-
 #pzsh_con_img2_one{
 	border-bottom:1px solid #EDEDED;
 	position:relative;}
@@ -318,20 +309,21 @@ float:left;}
 	text-align:left;
 	margin:0;}
 #pzsh_con_img2_one .pz_text p{
+	font-size:12px;}
+#pzsh_con_img2_one .pz_text span{
 	font-size:12px;
-	}
-#pzsh_con_img2_one .pz_text span{font-size:12px;
-color:#C81623;}
+	color:#C81623;}
+#pzsh_con_img3_one{
+	border-bottom:1px solid #EDEDED;}
+#pzsh_con_img3_two_left{
+	float:left;
+	border-right:1px solid #EDEDED;}
 #pzsh_con_img3{
 	width:408px;
 	height:405px;
 	float:left;
 	border:1px solid #EDEDED;
 	background:#F7F7F7;}
-#pzsh_con_img3_one{border-bottom:1px solid #EDEDED;}
-#pzsh_con_img3_two_left{
-	float:left;
-	border-right:1px solid #EDEDED;}
 #pzsh_con_img4{
 	width:169px;
 	height:405px;
@@ -341,19 +333,19 @@ color:#C81623;}
 	border-right:1px solid #EDEDED;}
 #pzsh_con_img4 ul{
 	float:left;
-	margin-top:3px;}	
+	margin-top:3px;}
 #pzsh_con_img4 ul li{
 	height:56px;
 	border-bottom:1px dashed #EDEDED;}
+#pzsh_con_img4 .de_border{
+	border-bottom:none;}
 #pzsh_con_img4 ul li img{
-	height:56px;}	
-#pzsh_con_img4	.img4_menu1{
+	height:56px;}
+#pzsh_con_img4 .img4_menu1{
 	padding-left:14px;
 	border-right:1px dashed #EDEDED;}
-#pzsh_con_img4	.img4_menu2{
-	padding-right:14px;}	
-#pzsh_con_img4 .delect{
-	border-bottom:none;}	
+#pzsh_con_img4 .img4_menu2{
+	padding-right:14px;}
 
 /**/
 #jd_gg2{
