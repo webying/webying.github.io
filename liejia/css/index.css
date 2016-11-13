@@ -1,0 +1,542 @@
+*{
+	font-family: "微软雅黑";
+}
+a{
+	color:#fff;
+}
+a:hover,a:focus{
+	color:#fff;
+	text-decoration: none;
+}
+
+/*头部*/
+.header{
+	height: 254px;
+	position: relative;
+	background: url(../images/bg1.jpg) no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+/*第一行*/
+.header .row-one{
+	margin:12px -15px;
+}
+.header .row-one .label{
+	background:#3d3d3d;
+	border-radius: 10px;
+	padding:5px 10px;
+	margin-top: 10px;
+	display: inline-block;
+}
+.header .row-one .options{
+	text-align: center;
+	color:#fff;
+}
+.header .row-one .options ul{
+	margin-left: 10px;
+}
+.header .row-one .options ul li a{
+	color:#fff;
+}
+/*第二行*/
+.header > .row-two{
+	color:#fff;
+	text-align: center;
+}
+.header > .row-two > h1{
+	margin-top: 0px;
+}
+.header > .row-two > h3{
+	font-weight: 200;
+}
+/*第三行*/
+.header > .row-three{
+	position: absolute;
+	bottom:12px;
+}
+/*第二部分*/
+.buys {
+	margin:0;
+	height:120px;
+	border-bottom: 1px solid #c5c5c5;
+}
+.buys ul{
+	width:51px;
+	margin:20px auto 0;/*上，左右，下*/
+	text-align: center;
+}
+.buys ul > li:last-child{
+	margin-top: 8px;
+}
+/*第三部分*/
+.carousels{
+	padding:14px 0 10px;
+	background:#f4f4f4;
+	border:1px solid #c5c5c5;
+}
+.carousels .item > img{
+	width:100%;
+}
+/*第四部分*/
+.hot-rooms .hot-header{
+	height:48px;
+	line-height: 48px;
+	padding-left: 15px;
+	border-bottom: 1px solid #c5c5c5;
+}
+.hot-rooms .hot-list .media{
+	padding: 14px 11px;
+	border-bottom: 1px solid #c5c5c5;
+}
+.hot-rooms .hot-list .media-heading{
+	font-weight: bolder;
+	margin-bottom: 0;
+}
+.hot-rooms .hot-list .media-body p{
+	margin:0;
+	font-size: 12px;
+}
+.hot-rooms .hot-list .media-body .lable{
+	display: inline-block;
+	margin-top: 4px;
+}
+/*............................*/
+/*第二张页面*/
+/*头部*/
+/*第一行*/
+ .header-common{
+	height:50px;
+	background: #00ae66;
+	margin:0 -15px;
+	position: relative;
+}
+.logo{
+	width:145px;
+	height:20px;
+	position: absolute;
+	left:10px;
+	top:15px;
+}
+/*表单*/
+ .main-body a{
+	color:#000;
+}
+ .singleLine{
+	margin:0;
+}
+ .left,.right,.last{
+	border-bottom: 1px solid #d3d3d3;
+	height: 50px;
+	line-height: 50px;
+}
+.header2 .msg{
+	line-height: 50px;
+}
+ .borderless{
+	border: none;
+	height:48px;
+	box-shadow: none;
+}
+/*按钮*/
+.btn-row{
+	margin:10px;
+}
+ .btn-row button{
+	background: #00ae66;
+	border-radius: 0;
+}
+/*忘记密码部分*/s
+ .btn-row :nth-child(2){
+	text-align: right;
+}
+ .text-green{
+	color:#39ac93;
+}
+
+/*...................................*/
+/*第三张页面*/
+.header3 .tabs{
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	padding:0 15px;
+}
+.header3 .border div{
+	height:5px;
+	background: #d1d1d1;
+}
+.header3 .border div.active{
+	background: #39ac6a;
+}
+.header3 .text-green{
+	float: left;
+}
+.header3 .btn-row :nth-child(2){
+	text-align: right;
+}
+.header3 .btn-row>div{
+	padding:0;
+}
+/*................................*/
+/*第四张页面*/
+/*第一行*/
+ .header-con{
+	height:42px;
+	background: #00ae66;
+	padding:6px 0px;
+}
+ .header-con img{
+	margin-left: -5px;
+}
+ .header-con .header-right{
+	text-align: center;
+}
+.header-con .header-right ul li{
+	padding-left: 10px;
+}
+.header-con .header-right ul li span{
+	display: inline-block;
+	color:#fff;
+}
+ .header-con .header-right ul li a{
+	color: #fff;
+	font-size: 12px;
+}
+/*第二行*/
+.header4-two{
+	height:60px;
+
+	background: #f4f4f4;
+}
+.header4-two>div{
+	padding:0;
+	height:40px;
+}
+.header4-two .input-group-addon{
+	background: #fff;
+	height: 40px;
+}
+.header4-two .form-control{
+	height:40px;
+}
+.header4-two .hea4-left{
+	margin:0 10px;
+	top:-4px;
+}
+/*第三行*/
+.header4-three .col-xs-3{
+	height:40px;
+	border:1px solid #d3d3d3;
+	line-height: 40px;
+	text-align: center;
+}
+.header4-three .col-xs-3 span :only-child{
+	font-size: 10px;
+}
+/*第四行*/
+.hot-rooms .media-heading{
+	font-size: 12px;
+}
+.hot-rooms .media{
+	height: 100px;
+	margin-top: 0;
+}
+.media-body .col-xs-10{
+	padding:0px;
+}
+.media-body .col-xs-2{
+	padding:0px;
+	font-size: 10px;
+}
+/*................................*/
+/*第五章页面*/
+.header5-two .con .row{
+	height:40px;
+	line-height:40px;
+	border-bottom:1px solid #999;
+	padding-left: 15px;
+}
+.header5-two .con .row span{
+	display: inline-block;
+	margin-right: 20px;
+}
+.header5-two .con .green{
+	height:50px;
+}
+.header5-two .con .green button{
+	background: #00ae66;
+	color:#fff;
+	border: none;
+	margin:10px 3px;
+	width:94%;
+}
+/*.................................*/
+/*第七张页面*/
+.header7 .search{
+	padding:12px;
+}
+.green{
+	color:#1BB06C;
+}
+.header7 .col-xs-3{
+	padding:0;
+	font-size: 12px;
+}
+/*................................*/
+/*第八张页面*/
+/*头部*/
+.header8 a{
+	color:#000;
+}
+/*第二行*/
+.header8 .row-two .item>img{
+	width:100%;
+	height:230px;
+}
+/*第三行*/
+.header8 .row-three{
+	height:64px;
+	border-bottom:1px solid #ececec ;
+}
+.header8 .row-three .col-xs-10{
+	line-height: 20px;	
+	height:65px;
+	border-right: 1px solid #ececec;
+}
+.header8 .row-three .col-xs-10 span{
+	display: inline-block;
+	margin-top: 16px;
+	font-size: 13px;
+}
+.header8 .row-three .col-xs-2{
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+}
+.header8 .row-three .col-xs-2 ul{
+	margin-top: 8px;
+}
+/*第四行*/
+.header .row-fore{
+	height:64px;
+}
+.header8 .row-fore .col-xs-4{
+	text-align: center;
+	font-size: 12px;
+	height:50px;
+	padding:0px;
+	border-right: 1px solid #ececec;
+}
+.header8 .row-fore .col-xs-4 ul{
+	margin-top: 8px;
+}
+.header8 .row-fore .col-xs-4 ul li span{
+	color:#DE6B4B;
+}
+/*第五行*/
+.header8 .row-five{
+	top:-15px;
+	height:50px;
+	border:1px solid #ececec;
+	line-height: 50px;
+}
+.header8 .row-five .fiv-left{
+	margin:0px 8px;
+}
+.header8 .row-five .fiv-right{
+	color:#776D69;
+}
+.header8 .row-five .col-xs-6{
+	padding:0;
+}
+
+
+/*.............................*/
+/*第九张页面*/
+/*头部*/
+.header9{
+	height:42px;
+	background: #00AE66;
+	margin-left: -15px;
+}
+.header9 .row{
+	height:24px;
+	margin:9px -15px;
+}
+.header9 .row .label{
+	display: inline-block;	
+	font-size: 14px;
+}
+.header9 .row .header-center{
+	color:#fff;
+	font-weight: 600;
+}
+/*第二部分*/
+.he9-two{
+	height:102px;
+}
+.he9-two .row{
+	height:30px;
+	background: #eaeaeb;
+	line-height: 30px;
+	color:#817A97;
+	font-size: 12px;
+	padding-left: 12px;
+}
+.he9-two .cen{
+	height:42px;
+	background: #fff;
+	line-height: 42px;
+}
+/*第三部分*/
+.he9-three .row{
+	height:41px;
+	border-bottom:1px solid #e5e5e5;
+	line-height: 42px;
+	padding-left: 12px;
+}
+/*..........................*/
+/*第十张页面*/
+/*头部*/
+/*第一行*/
+.header10{
+	height:174px;
+	background: url(../images/bg1.jpg) no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+.header10 .header-con{
+	height:42px;
+	background: #00ae66;
+	padding:6px 0px;
+}
+.header10 .header-con img{
+	margin-left: -5px;
+}
+.header10 .header-con .header-right{
+	text-align: center;
+}
+.header10 .header-con .header-right ul li span{
+	display: inline-block;
+	color:#fff;
+}
+.header10 .header-con .header-right ul li a{
+	color: #fff;
+	line-height: 10px;
+}
+/*第二行*/
+.header10 .header-two .header-two-con{
+	width:50px;
+	margin:0 auto;
+}
+.header10 .header-two span{
+	font-size: 30px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 50%;
+	background: #7e6c44;
+	width:50px;
+	height:50px;
+	color:#fff;
+	padding:5px;
+}
+/*第三行*/
+.header10 .header-three{
+	margin-top: 18px;
+	width:200px;
+	margin:18px auto 16px;
+}
+.header10 .header-three button{
+	background: #39AC6A;
+	color:#fff;
+	width:80px;
+	height:32px;
+	border:1px solid #fff;
+	margin-left:10px;
+}
+/*第二部分*/
+.two .two-con{
+	height:50px;
+}
+.two .two-con h5{
+	margin:0;
+	font-weight: 600;
+	padding-left:10px;
+	line-height: 50px;
+	border:1px solid #ececec;
+	color:#272A2E;
+}
+.two .two-con h5 span{
+	font-size: 12px;
+	line-height: 50px;
+	padding-right: 26px;
+	color:#999;
+}
+/*...................................*/
+#header{
+	background-color: #00ae66;
+}
+#header>div>div{
+	background-color: #00AE66;
+	color: #fff;
+	padding:13px 0;
+}
+#header>div>div:hover{
+	cursor:pointer;
+}
+#header>div>a>img{
+	margin:12px 0;
+}
+#header>div>a>ul{
+	margin:5px 5px;
+}
+/*第二行*/
+div#two-row>img{
+	width: 100%;
+}
+#pic{
+	border-bottom: 1px solid #ebebeb;
+	border-top: 1px solid #ebebeb;
+	background: #f9f9f9;
+}
+#pic ul li a{
+	color:#000;
+}
+#pic>div>div{
+	padding:18px 5px 0 0;
+}
+#pic>div>div:nth-child(2){
+	border-left: 1px solid #dcdcdc;
+}
+/*第三行*/
+#introduce{
+	border-bottom: 1px solid #dcdcdc;
+}
+#introduce>div{
+	margin: 10px 0;
+	border-right: 1px solid #dcdcdc;
+}
+#introduce>div:last-child{
+	border-right: none;
+}
+#introduce>div>ul>li:nth-child(2){
+	color:#de6843;
+}
+/*第四行*/
+#house_info>div.row{
+	height:50px;
+	line-height: 50px;
+	border-bottom: 1px solid #dcdcdc;
+}
+.text{
+	border:1px solid;
+	padding:1px 5px;
+}
+.text-blue{
+	color:blue;
+	border-color:blue;
+}
+.text-orange{
+	color:orange;
+	border-color:orange;
+}

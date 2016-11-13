@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>链家网-首页</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!--导入样式-->
+	<link rel="stylesheet" type="text/css" href="frameworks/bootstrap-3.3.0-dist/css/bootstrap.min.css">
+	<!--导入js文件-->
+	<script type="text/javascript" src="frameworks/jquery-2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="frameworks/bootstrap-3.3.0-dist/js/bootstrap.min.js"></script>
+	<!--导入自定义-->
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<!--头部-->
+	<div class="container-fluid header">
+		<!--第一行-->
+		<div class="row row-one">
+			<div class="col-xs-6">
+				<span class="label">
+					上海
+					<span class="glyphicon glyphicon-chevron-down"></span>
+				</span>
+			</div>
+			<div class="col-xs-6 options">
+				<ul class="list-unstyled pull-right">
+					<li>
+						<span class="glyphicon glyphicon-download-alt"></span>
+					</li>
+					<li><a href="#">APP</a></li>
+				</ul>
+				<ul class="list-unstyled pull-right">
+					<li>
+						<span class="glyphicon glyphicon-user"></span>
+					</li>
+					<li><a href="index10.html">我的</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--第一行结束-->
+		<!--第二行-->
+		<div class="row-two">
+			<h1>专注上海</h1>
+			<h3>开启沪上找房之旅</h3>
+		</div>
+		<!--第二行结束-->
+		<!--第三行开始-->
+		<div class="row-three input-group">
+			<div class="input-group-addon">
+				<span class="glyphicon glyphicon-search"></span>
+			</div>
+			<input type="search" class="form-control" placeholder="请输入小区名或板块名称">
+		</div>
+		<!--第三行结束-->
+	</div>
+	<!--头部结束-->
+	<!--第二部分-->
+	<div class="row buys" id="zuf">
+		<div class="col-xs-6">
+			<ul class="list-unstyled">
+				<li><img src="images/1-index_03.png"></li>
+				<li>二手房</li>
+			</ul>
+		</div>
+		<div class="col-xs-6">
+			<ul class="list-unstyled">
+				<li><img src="images/1-index_05.png"></li>
+				<li>租房</li>
+			</ul>
+		</div>
+	</div>
+	<!--第二部分结束-->
+	<!--第三部分-->
+	<div class="row carousels">
+		<div class="carousel slide" data-ride="carousel" data-interval="1000">
+			<!--图片容器-->
+			<div class="carousel-inner">
+				<a href="#" class="item active"><img src="images/1-index_02.png" class="img-responsive"></a>
+				<a href="#" class="item"><img src="images/1-index_02.png" class="img-responsive"></a>
+				<a href="#" class="item"><img src="images/1-index_02.png" class="img-responsive"></a>
+			</div>
+		</div>
+	</div>
+	<!--第三部分结束-->
+	<!--第四部分-->
+	<div class="hot-rooms">
+		<div class="hot-header">热门房源</div>
+		<div class="hot-list">
+			<div class="media">
+				<div class="media-left">
+					<img src="images/list_01.png">
+				</div>
+				<div class="media-body">
+					<div class="media-heading">成熟社区，诚意出售</div>
+					<p>三室两厅，南北通透</p>
+					<p>路易凯旋宫</p>
+					<p>
+						<span class="label label-warning">满五</span>
+						<span class="label label-danger">学区</span>
+					</p>
+				</div>
+			</div>
+			<div class="media">
+				<div class="media-left">
+					<img src="images/list_01.png">
+				</div>
+				<div class="media-body">
+					<div class="media-heading">成熟社区，诚意出售</div>
+					<p>三室两厅，南北通透</p>
+					<p>路易凯旋宫</p>
+					<p>
+						<span class="label label-warning">满五</span>
+						<span class="label label-danger">学区</span>
+					</p>
+				</div>
+			</div>
+			<div class="media">
+				<div class="media-left">
+					<img src="images/list_01.png">
+				</div>
+				<div class="media-body">
+					<div class="media-heading">成熟社区，诚意出售</div>
+					<p>三室两厅，南北通透</p>
+					<p>路易凯旋宫</p>
+					<p>
+						<span class="label label-warning">满五</span>
+						<span class="label label-danger">学区</span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--第四部分结束-->
+	<script type="text/javascript">
+	var zuf=document.getElementById('zuf');
+    zuf.addEventListener("mousedown",function(){
+        window.location="index4.html";
+    },false);
+    </script>
+</body>
+</html>
